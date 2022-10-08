@@ -1,0 +1,14 @@
+# fly.toml file generated for fly-python-demo on 2022-10-08T16:01:30+06:00
+
+app = "fly-python-demo"
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[build]
+  builder = "heroku/buildpacks:latest"
+
+[env]
+
+[experimental]
+  allowed_public_ports = []
+  auto_rollback = true
