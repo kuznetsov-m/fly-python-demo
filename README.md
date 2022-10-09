@@ -12,6 +12,13 @@
 
 `cat .env | fly secrets import` [source](https://community.fly.io/t/how-are-you-managing-cert-files-with-fly/2984/8)
 
+## SSH
+```
+flyctl ssh issue --agent
+flyctl ssh establish
+flyctl ssh console -a money-list
+```
+
 ## fly.toml
 Remove: ...
 
