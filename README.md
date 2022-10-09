@@ -8,7 +8,7 @@
 
 `flyctl secrets set DATABASE_URL=postgres://example.com/mydb`
 
-`cat .env | fly secrets import`
+`cat .env | fly secrets import` [source](https://community.fly.io/t/how-are-you-managing-cert-files-with-fly/2984/8)
 
 ## fly.toml
 Remove: ...
