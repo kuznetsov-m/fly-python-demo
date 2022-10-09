@@ -8,6 +8,8 @@
 
 `flyctl secrets set DATABASE_URL=postgres://example.com/mydb`
 
+`cat .env | fly secrets import`
+
 ## fly.toml
 Remove: ...
 
